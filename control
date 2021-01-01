@@ -1,0 +1,13 @@
+Package: me.minhton.ninels
+Name: NineLS
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Bring back the iOS 9 Lock Screen!
+Maintainer: MinhTon <ford.tonthat@gmail.com>
+Author: MinhTon <ford.tonthat@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker, firmware (>= 13.0)
+Conflicts: me.lightmann.vinyl, love.litten.lobelias, me.minhton.nineunlock, me.minhton.ninemusic
+Icon: https://minh-ton.github.io/repo/icons/NineLS/Icon.png
+Depiction: https://minh-ton.github.io/repo/depictions/?p=me.minhton.ninels
+Homepage: https://minh-ton.github.io

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>NineLSRootListHeaderView</string>
+				<key>icon</key>
+				<string>NineLSBanner.png</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>cellClass</key>
+				<string>HBLinkTableCell</string>
+				<key>icon</key>
+				<string>minhton.png</string>
+				<key>label</key>
+				<string>MinhTon</string>
+				<key>subtitle</key>
+				<string>Happy New Year 2021!</string>
+				<key>action</key>
+				<string>website</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>enableNineLS</string>
+				<key>label</key>
+				<string>Enable NineLS</string>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Customizations</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Music Player</string>
+				<key>detail</key>
+				<string>NineLSMusicPlayerSubPrefController</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Notifications</string>
+				<key>detail</key>
+				<string>NineLSNotificationsSubPrefController</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Slide To Unlock</string>
+				<key>detail</key>
+				<string>NineLSSTUSubPrefController</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Other</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>lockSound</string>
+				<key>label</key>
+				<string>iOS 9 Lock Sound</string>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Options</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>action</key>
+				<string>resetpref</string>
+				<key>cellClass</key>
+				<string>HBTintedTableCell</string>
+				<key>label</key>
+				<string>Reset Settings</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>About NineLS</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>cellClass</key>
+				<string>HBTintedTableCell</string>
+				<key>label</key>
+				<string>Source Code</string>
+				<key>action</key>
+				<string>sourcecode</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>About me</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>cellClass</key>
+				<string>HBTintedTableCell</string>
+				<key>label</key>
+				<string>GitHub - @Minh-Ton</string>
+				<key>action</key>
+				<string>github</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>cellClass</key>
+				<string>HBTintedTableCell</string>
+				<key>label</key>
+				<string>Reddit - u/Minh-Ton</string>
+				<key>action</key>
+				<string>reddit</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string>NineLS</string>
+	</dict>
+</plist>

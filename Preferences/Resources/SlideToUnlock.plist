@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>slideToUnlockEnabled</string>
+				<key>label</key>
+				<string>Enable Slide To Unlock</string>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Slide Text</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>default</key>
+				<string>slide to unlock</string>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>slideToUnlockText</string>
+				<key>label</key>
+				<string>Content</string>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>default</key>
+				<string>25</string>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>slideToUnlockSize</string>
+				<key>label</key>
+				<string>Size</string>
+				<key>isNumeric</key>
+				<true/>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Slide Text Color</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>action</key>
+				<string>textcolor</string>
+				<key>label</key>
+				<string>Choose Color</string>
+				<key>action</key>
+				<string>textcolor</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Other</string>
+				<key>footerText</key>
+        <string>Automatically hide the "slide to unlock" label when music is playing</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>slideToUnlockChevron</string>
+				<key>label</key>
+				<string>Show Chevron</string>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>me.minhton.ninelspref</string>
+				<key>key</key>
+				<string>slideToUnlockAutoHide</string>
+				<key>label</key>
+				<string>Smart Hiding</string>
+				<key>PostNotification</key>
+				<string>me.minhton.ninels/prefsupdated</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string>Slide To Unlock</string>
+	</dict>
+</plist>

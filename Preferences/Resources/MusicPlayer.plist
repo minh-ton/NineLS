@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicEnabled</string>
+			<key>label</key>
+			<string>Enable iOS 9 Music Player</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hiding</string>
+			<key>footerText</key>
+			<string>Does not require a respring.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicHideTimeControls</string>
+			<key>label</key>
+			<string>Hide Progress Bar</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicHideMediaControls</string>
+			<key>label</key>
+			<string>Hide Control Buttons</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicHideVolumeSlider</string>
+			<key>label</key>
+			<string>Hide Volume Slider</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicHideSongArtwork</string>
+			<key>label</key>
+			<string>Hide Song Artwork</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicHideSongTitle</string>
+			<key>label</key>
+			<string>Hide Song Title</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>musicHideArtistTitle</string>
+			<key>label</key>
+			<string>Hide Artist Title</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Positioning</string>
+		</dict>
+
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Progress Bar</string>
+ 			<key>detail</key>
+ 			<string>NineLSMusicPlayerProgressBarSubPref</string>
+ 		</dict>
+		<dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Control Buttons</string>
+ 			<key>detail</key>
+ 			<string>NineLSMusicPlayerControlButtonsSubPref</string>
+ 		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Volume Slider</string>
+			<key>detail</key>
+			<string>NineLSMusicPlayerVolumeSliderSubPref</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Song Artwork</string>
+			<key>detail</key>
+			<string>NineLSMusicPlayerSongArtworkSubPref</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Song Title</string>
+			<key>detail</key>
+			<string>NineLSMusicPlayerSongTitleSubPref</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Artist Title</string>
+			<key>detail</key>
+			<string>NineLSMusicPlayerSongArtistSubPref</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Music Player</string>
+</dict>
+</plist>

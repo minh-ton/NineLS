@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>notifEnabled</string>
+			<key>label</key>
+			<string>Enable iOS 9 Notifications</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>bannersEnabled</string>
+			<key>label</key>
+			<string>Enable iOS 9 Banners</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notifications</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>notifEnableSeparators</string>
+			<key>label</key>
+			<string>Show Separator</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Separator Transparency</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.45</real>
+			<key>min</key>
+			<real>0.1</real>
+			<key>max</key>
+			<real>1.0</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>notifSeparatorAlpha</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.minhton.ninelspref</string>
+			<key>key</key>
+			<string>notifdisableGrouping</string>
+			<key>label</key>
+			<string>Disable Grouping [Beta]</string>
+			<key>PostNotification</key>
+			<string>me.minhton.ninels/prefsupdated</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Preview</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>testBanner:</string>
+			<key>label</key>
+			<string>Test Banners</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>testNotifications:</string>
+			<key>label</key>
+			<string>Test Notifications</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Notifications</string>
+</dict>
+</plist>
