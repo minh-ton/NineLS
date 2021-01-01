@@ -1,6 +1,6 @@
 Package: me.minhton.ninels
 Name: NineLS
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Bring back the iOS 9 Lock Screen!
 Maintainer: MinhTon <ford.tonthat@gmail.com>
